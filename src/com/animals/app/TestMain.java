@@ -1,5 +1,7 @@
 package com.animals.app;
 
+import com.animals.app.characterImpl.ButterFly;
+import com.animals.app.characterImpl.CatterPillar;
 import com.animals.app.characterImpl.Chicken;
 import com.animals.app.characterImpl.ClownFish;
 import com.animals.app.characterImpl.Duck;
@@ -42,7 +44,11 @@ public class TestMain {
 		clownFish.specialCharacter();
 		clownFish.size();
 	
+		ButterFly butterFly = new ButterFly();
+		butterFly.fly();
 		
+		CatterPillar catterPillar = new CatterPillar();
+		catterPillar.walk();
 	}
 
 }
