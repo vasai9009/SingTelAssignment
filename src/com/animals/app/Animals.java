@@ -2,7 +2,8 @@ package com.animals.app;
 
 public class Animals {
 	
-	void walk(){
+	
+	public void walk(){
 		System.err.println("I am walking");
 	}
 

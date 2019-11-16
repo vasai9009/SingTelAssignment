@@ -15,7 +15,7 @@ public class Bird extends Animals implements Sing{
 	}
 
 	@Override
-	void walk() {
+	public void walk() {
 		super.walk();
 	}
 
