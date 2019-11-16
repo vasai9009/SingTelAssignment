@@ -1,4 +1,4 @@
-package com.animals.app;
+package com.animals.app.character;
 
 public interface Sing {
 	
