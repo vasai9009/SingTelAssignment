@@ -1,5 +1,7 @@
 package com.animals.app;
 
+import java.util.Locale;
+
 import com.animals.app.characterImpl.ButterFly;
 import com.animals.app.characterImpl.CatterPillar;
 import com.animals.app.characterImpl.Chicken;
@@ -7,6 +9,7 @@ import com.animals.app.characterImpl.ClownFish;
 import com.animals.app.characterImpl.Duck;
 import com.animals.app.characterImpl.Fish;
 import com.animals.app.characterImpl.Parrot;
+import com.animals.app.characterImpl.RoosterWithLanguage;
 import com.animals.app.characterImpl.Shark;
 
 public class TestMain {
@@ -49,6 +52,14 @@ public class TestMain {
 		
 		CatterPillar catterPillar = new CatterPillar();
 		catterPillar.walk();
+		
+		
+		
+		RoosterWithLanguage roosterWithLang = new RoosterWithLanguage(new Locale("fr","FR"));
+		roosterWithLang.singing();
+		
+		RoosterWithLanguage roosterWithLangSD = new RoosterWithLanguage(new Locale("sv", "SE"));
+		roosterWithLangSD.singing();
 	}
 
 }
