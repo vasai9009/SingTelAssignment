@@ -1,8 +1,11 @@
 package com.animals.app;
 
 import com.animals.app.characterImpl.Chicken;
+import com.animals.app.characterImpl.ClownFish;
 import com.animals.app.characterImpl.Duck;
+import com.animals.app.characterImpl.Fish;
 import com.animals.app.characterImpl.Parrot;
+import com.animals.app.characterImpl.Shark;
 
 public class TestMain {
 
@@ -25,6 +28,21 @@ public class TestMain {
 		parrotWithCats.singing();
 		Bird parrotWithRooster = new Parrot("Cock-a-doodle-doo");
 		parrotWithRooster.singing();
+		
+		Fish fish = new Fish();
+		fish.swim();
+		
+		Shark sharkFish = new Shark();
+		sharkFish.color();
+		sharkFish.food();
+		sharkFish.size();
+		
+		ClownFish clownFish = new ClownFish();
+		clownFish.color();
+		clownFish.specialCharacter();
+		clownFish.size();
+	
+		
 	}
 
 }
