@@ -8,6 +8,10 @@ public class Chicken extends Bird{
 	public void singing() {
 		System.err.println("Cluck, cluck");
 	}
+	
+	public void chickenType(){
+		System.err.println("Its normal chicken");
+	}
 
 	
 
